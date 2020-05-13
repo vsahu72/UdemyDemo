@@ -3,7 +3,7 @@
 //  App Onboarding
 //
 //  Created by Andreas Schultz on 10.08.19.
-//  Copyright © 2019 Andreas Schultz. All rights reserved.
+//  Copyright © 2020 Torry Harris Integrate Solutions. All rights reserved.
 //
 
 import SwiftUI
