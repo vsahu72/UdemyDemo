@@ -15,7 +15,6 @@
 		13420377246AC2BC009F1E78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13420376246AC2BC009F1E78 /* HomeView.swift */; };
 		1357D46824616F3400AB7540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357D46724616F3400AB7540 /* AppDelegate.swift */; };
 		1357D46A24616F3400AB7540 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357D46924616F3400AB7540 /* SceneDelegate.swift */; };
-		1357D46C24616F3400AB7540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357D46B24616F3400AB7540 /* ContentView.swift */; };
 		1357D46E24616F3C00AB7540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1357D46D24616F3C00AB7540 /* Assets.xcassets */; };
 		1357D47124616F3C00AB7540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1357D47024616F3C00AB7540 /* Preview Assets.xcassets */; };
 		1357D47424616F3C00AB7540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1357D47224616F3C00AB7540 /* LaunchScreen.storyboard */; };
@@ -54,7 +53,6 @@
 		1357D46424616F3400AB7540 /* UdemyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1357D46724616F3400AB7540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1357D46924616F3400AB7540 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1357D46B24616F3400AB7540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1357D46D24616F3C00AB7540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1357D47024616F3C00AB7540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1357D47324616F3C00AB7540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +93,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13420378246BBA5C009F1E78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				137B68302469540A004C0F8A /* Components */,
+				137B683D246A4F86004C0F8A /* CellView */,
+				137B67FA2462C254004C0F8A /* OnboardingScreen */,
+				13420376246AC2BC009F1E78 /* HomeView.swift */,
+				137B681F24693DA4004C0F8A /* TabViewContainer.swift */,
+				137B682124693DD6004C0F8A /* FeaturedView.swift */,
+				137B682324693E28004C0F8A /* SearchView.swift */,
+				137B682524693E44004C0F8A /* MyCourseView.swift */,
+				137B682724693E5B004C0F8A /* WishlistView.swift */,
+				137B682924693E73004C0F8A /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13420379246BBA74009F1E78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1357D45B24616F3400AB7540 = {
 			isa = PBXGroup;
 			children = (
@@ -114,25 +136,15 @@
 		1357D46624616F3400AB7540 /* UdemyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				137B683D246A4F86004C0F8A /* CellView */,
 				137B680824653A0D004C0F8A /* Helper Class */,
-				137B680724653537004C0F8A /* Utils */,
-				137B67FA2462C254004C0F8A /* OnboardingScreen */,
-				137B68302469540A004C0F8A /* Components */,
+				13420379246BBA74009F1E78 /* Models */,
+				13420378246BBA5C009F1E78 /* Views */,
 				1357D46724616F3400AB7540 /* AppDelegate.swift */,
-				137B681F24693DA4004C0F8A /* TabViewContainer.swift */,
 				1357D46924616F3400AB7540 /* SceneDelegate.swift */,
-				1357D46B24616F3400AB7540 /* ContentView.swift */,
 				1357D46D24616F3C00AB7540 /* Assets.xcassets */,
 				1357D47224616F3C00AB7540 /* LaunchScreen.storyboard */,
 				1357D47524616F3C00AB7540 /* Info.plist */,
 				1357D46F24616F3C00AB7540 /* Preview Content */,
-				137B682124693DD6004C0F8A /* FeaturedView.swift */,
-				137B682324693E28004C0F8A /* SearchView.swift */,
-				137B682524693E44004C0F8A /* MyCourseView.swift */,
-				137B682724693E5B004C0F8A /* WishlistView.swift */,
-				137B682924693E73004C0F8A /* AccountView.swift */,
-				13420376246AC2BC009F1E78 /* HomeView.swift */,
 			);
 			path = UdemyDemo;
 			sourceTree = "<group>";
@@ -168,6 +180,7 @@
 		137B680824653A0D004C0F8A /* Helper Class */ = {
 			isa = PBXGroup;
 			children = (
+				137B680724653537004C0F8A /* Utils */,
 				137B680924653A0D004C0F8A /* Extension */,
 				137B680D24653A0D004C0F8A /* Managers */,
 				137B681124653A0D004C0F8A /* Rechability.swift */,
@@ -324,7 +337,6 @@
 				137B68392469540A004C0F8A /* CardView.swift in Sources */,
 				13420373246AAC68009F1E78 /* WishListCategoryCellView.swift in Sources */,
 				137B681724653A0D004C0F8A /* NSManagedObjectContext+Extensions.swift in Sources */,
-				1357D46C24616F3400AB7540 /* ContentView.swift in Sources */,
 				137B682A24693E73004C0F8A /* AccountView.swift in Sources */,
 				137B67FF2462C268004C0F8A /* PageViewController.swift in Sources */,
 				137B681D24653A0D004C0F8A /* Webservice.swift in Sources */,
