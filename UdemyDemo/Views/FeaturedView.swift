@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct FeaturedView: View {
+    let dict: [String] = ["1","2","3","4","5","6","7"]
     var body: some View {
         VStack{
             ScrollView{
                 CardView(card: Card.example)
+                GradientView()
+               
    
                     ScrollView (.horizontal, showsIndicators: false) {
                         HStack {
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
-                            FeaturedProductCellView(card: Card.example)
+                            
+                            ForEach(dict, id: \.self) {_ in 
+                                FeaturedProductCellView(card: Card.example)
+                            }
                         }
                     }
             }.padding(.horizontal, 10)

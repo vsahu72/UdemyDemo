@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct SearchView: View {
+    let dict: [String] = ["1","2","3","4","5","6","7","8","9","10"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            List {
+                ForEach(dict, id: \.self) {_ in
+                    CategoryCellView()
+                }
+            }
+        }
     }
 }
 
