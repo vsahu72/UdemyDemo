@@ -81,13 +81,21 @@ var body: some View {
     ).frame(height: 80).padding()
     }
 }
-    
+   
+
+struct BackgroundView: View {
+var body: some View {
+    LinearGradient(gradient: Gradient(colors: [Color.purple, Color.pink]), startPoint: .topTrailing, endPoint: .bottomLeading)
+    }
+}
+
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         Group{
              CardView(card: Card.example)
              SmallCardView(card: Card.example)
              GradientView()
+             BackgroundView()
         }.previewLayout(.sizeThatFits)
        
         

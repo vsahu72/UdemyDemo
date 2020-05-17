@@ -2,8 +2,8 @@
 //  URLImage.swift
 //  LoadingImages
 //
-//  Created by Mohammad Azam on 6/20/19.
-//  Copyright © 2019 Mohammad Azam. All rights reserved.
+//  Created by vikash sahu on 11/03/20.
+//  Copyright © 2020 Torry Harris Integrate Solutions. All rights reserved.
 //
 
 import Foundation
