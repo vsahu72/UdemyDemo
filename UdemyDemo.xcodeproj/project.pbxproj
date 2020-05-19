@@ -18,6 +18,7 @@
 		1357D46E24616F3C00AB7540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1357D46D24616F3C00AB7540 /* Assets.xcassets */; };
 		1357D47124616F3C00AB7540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1357D47024616F3C00AB7540 /* Preview Assets.xcassets */; };
 		1357D47424616F3C00AB7540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1357D47224616F3C00AB7540 /* LaunchScreen.storyboard */; };
+		135E1A992473F15F009E8860 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E1A982473F15E009E8860 /* TutorialView.swift */; };
 		137B67FF2462C268004C0F8A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B67FB2462C268004C0F8A /* PageViewController.swift */; };
 		137B68002462C268004C0F8A /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B67FC2462C268004C0F8A /* PageControl.swift */; };
 		137B68012462C268004C0F8A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B67FD2462C268004C0F8A /* OnboardingView.swift */; };
@@ -61,6 +62,7 @@
 		1357D47024616F3C00AB7540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1357D47324616F3C00AB7540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1357D47524616F3C00AB7540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135E1A982473F15E009E8860 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		137B67FB2462C268004C0F8A /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		137B67FC2462C268004C0F8A /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		137B67FD2462C268004C0F8A /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				13F5461D246E9A43006130D4 /* SignUpView.swift */,
 				13F5461F246E9F1B006130D4 /* LoginWithEmail.swift */,
 				13F54621246E9F3B006130D4 /* SignUpWithEmail.swift */,
+				135E1A982473F15E009E8860 /* TutorialView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				137B681B24653A0D004C0F8A /* Rechability.swift in Sources */,
 				1357D46824616F3400AB7540 /* AppDelegate.swift in Sources */,
 				13F54622246E9F3B006130D4 /* SignUpWithEmail.swift in Sources */,
+				135E1A992473F15F009E8860 /* TutorialView.swift in Sources */,
 				137B682424693E28004C0F8A /* SearchView.swift in Sources */,
 				13420371246AA818009F1E78 /* LineProgressBarView.swift in Sources */,
 				1357D46A24616F3400AB7540 /* SceneDelegate.swift in Sources */,

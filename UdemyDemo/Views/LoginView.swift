@@ -3,7 +3,7 @@
 //  UdemyDemo
 //
 //  Created by vikash sahu on 14/05/20.
-//  Copyright © 2020 Aripra. All rights reserved.
+//  Copyright © 2020 Torry Harris Integrate Solutions. All rights reserved.
 //
 
 import SwiftUI
